@@ -8,7 +8,7 @@ const envSchema = z.object({
   SUPABASE_SERVICE_ROLE_KEY: z.string().min(1),
 
   // App
-  NEXT_PUBLIC_APP_URL: z.string().url().optional().default("v0-next-js-14-application-beta.vercel.app"),
+  NEXT_PUBLIC_APP_URL: z.string().url().optional().default("https://smm-tool-1.onrender.com"),
 
   // Auth
   AUTH_REDIRECT_URL: z.string().url().optional(),
